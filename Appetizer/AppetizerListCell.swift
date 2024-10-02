@@ -28,7 +28,7 @@ struct AppetizerListCell: View {
                     .foregroundColor(.secondary)
             }
         }
-        .padding(.leading)
+
     }
 }
 
