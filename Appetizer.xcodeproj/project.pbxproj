@@ -65,7 +65,6 @@
 				6B4E89682CB5950D00DEF259 /* AppetizerListView */,
 				6B4E89692CB5951D00DEF259 /* AccountView */,
 				6B4E896A2CB5952800DEF259 /* OrderView */,
-				6B4E89762CB5C13900DEF259 /* AppetizerDetailView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -75,6 +74,7 @@
 			children = (
 				6B4E895D2CADD29F00DEF259 /* AppetizerListViewModel.swift */,
 				6B5045CB2CAD64AA007C96ED /* AppetizerListView.swift */,
+				6B4E89762CB5C13900DEF259 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
