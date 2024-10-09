@@ -41,4 +41,12 @@ struct AlertContext {
     static let emptyField       = AlertItem(title: Text("Input Field empty"),
                                             message: Text("First name, Last Name and email cannot be empty"),
                                             dismissButton: .default(Text("OK")))
+    
+    static let userSaveSuccess  = AlertItem(title: Text("Profile Saved"),
+                                            message: Text("Your information was successfully saved"),
+                                            dismissButton: .default(Text("OK")))
+    
+    static let invalidUserData  = AlertItem(title: Text("Profile Error"),
+                                            message: Text("There was an error while saving or retrieving your profile"),
+                                            dismissButton: .default(Text("OK")))
 }
