@@ -34,7 +34,7 @@ struct AlertContext {
                                               dismissButton: .default(Text("OK")))
     
     //MARK: - Account Alerts
-    static let invalidEmail     = AlertItem(title: Text("Invalid Email Address"),
+    static let invalidEmail     = AlertItem(title: Text("Invalid Email Format"),
                                             message: Text("The email ID you entered is invalid, kindly enter a valid email"),
                                             dismissButton: .default(Text("OK")))
      
