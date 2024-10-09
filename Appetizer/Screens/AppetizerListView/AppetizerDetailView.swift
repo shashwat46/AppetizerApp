@@ -15,11 +15,8 @@ struct AppetizerDetailView: View {
     var body: some View {
         
         VStack{
-            Image("asian-flan-steak")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 300, height: 225)
-            
+            AppetizerRemoteImage(urlString: appetizer.imageURL)
+                
             VStack{
                 Text(appetizer.name)
                     .font(.title2)
