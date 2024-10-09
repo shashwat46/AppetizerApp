@@ -27,6 +27,7 @@
 		6B5045D82CADABA9007C96ED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5045D72CADABA8007C96ED /* NetworkManager.swift */; };
 		6B5045DA2CADAD12007C96ED /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5045D92CADAD12007C96ED /* APError.swift */; };
 		6B7D38E42CB7059000AF076E /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D38E32CB7059000AF076E /* AccountViewModel.swift */; };
+		6B7D38E62CB70B2800AF076E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D38E52CB70B2800AF076E /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		6B5045D72CADABA8007C96ED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		6B5045D92CADAD12007C96ED /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		6B7D38E32CB7059000AF076E /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		6B7D38E52CB70B2800AF076E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				6B4E89632CADDF5A00DEF259 /* Color+Ext.swift */,
+				6B7D38E52CB70B2800AF076E /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				6B5045CA2CAD644F007C96ED /* AppetizerTabView.swift in Sources */,
 				6B5045D82CADABA9007C96ED /* NetworkManager.swift in Sources */,
 				6B4E89662CADE8B300DEF259 /* RemoteImage.swift in Sources */,
+				6B7D38E62CB70B2800AF076E /* String+Ext.swift in Sources */,
 				6B4E89772CB5C13900DEF259 /* AppetizerDetailView.swift in Sources */,
 				6B5045BC2CAD6410007C96ED /* AppetizerApp.swift in Sources */,
 				6B4E89602CADD74400DEF259 /* Alert.swift in Sources */,
