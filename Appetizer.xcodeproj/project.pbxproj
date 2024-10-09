@@ -26,6 +26,7 @@
 		6B5045D62CAD9509007C96ED /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5045D52CAD9509007C96ED /* AppetizerListCell.swift */; };
 		6B5045D82CADABA9007C96ED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5045D72CADABA8007C96ED /* NetworkManager.swift */; };
 		6B5045DA2CADAD12007C96ED /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5045D92CADAD12007C96ED /* APError.swift */; };
+		6B7D38E42CB7059000AF076E /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D38E32CB7059000AF076E /* AccountViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		6B5045D52CAD9509007C96ED /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		6B5045D72CADABA8007C96ED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		6B5045D92CADAD12007C96ED /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		6B7D38E32CB7059000AF076E /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		6B4E89692CB5951D00DEF259 /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				6B7D38E32CB7059000AF076E /* AccountViewModel.swift */,
 				6B5045CD2CAD64BA007C96ED /* AccountView.swift */,
 			);
 			path = AccountView;
@@ -298,6 +301,7 @@
 				6B5045DA2CADAD12007C96ED /* APError.swift in Sources */,
 				6B4E897C2CB6CB8200DEF259 /* XDismissButton.swift in Sources */,
 				6B5045CE2CAD64BA007C96ED /* AccountView.swift in Sources */,
+				6B7D38E42CB7059000AF076E /* AccountViewModel.swift in Sources */,
 				6B4E895E2CADD29F00DEF259 /* AppetizerListViewModel.swift in Sources */,
 				6B4E89642CADDF5A00DEF259 /* Color+Ext.swift in Sources */,
 				6B5045D62CAD9509007C96ED /* AppetizerListCell.swift in Sources */,
