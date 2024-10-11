@@ -33,7 +33,7 @@ struct AccountView: View {
                     TextField("Email", text: $viewModel.user.email)
                         .focused($focusedTextField, equals: .email)
                         .onSubmit {focusedTextField = nil}
-                        .submitLabel(.continue)
+                        .submitLabel(.done)
                         .keyboardType(.emailAddress)
                         .textInputAutocapitalization(.never)
                         .autocorrectionDisabled()
@@ -57,6 +57,11 @@ struct AccountView: View {
                 .tint(Color.brandPrimary)
             }
             .navigationTitle("📒 Account")
+            .toolbar {
+                ToolbarItem(placement: .keyboard) {
+                    Button("Dismiss"){focusedTextField = nil}
+                }
+            }
         }
         .onAppear {
             viewModel.retrieveUser()
