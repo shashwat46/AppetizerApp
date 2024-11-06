@@ -2,7 +2,8 @@
 
 A modern food ordering application built with SwiftUI that allows users to browse and order appetizers. The app follows MVVM architecture and leverages the latest Swift features for a smooth user experience.
 
-![](Appetizer_ScreenRecord-ezgif.com-optimize.gif)
+
+<img src = "Appetizer_ScreenRecord-ezgif.com-optimize.gif" width = "400" height = "800"/>
 
 ## Features ✨
 
